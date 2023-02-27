@@ -9,7 +9,7 @@ const Navbar = () => {
     setShowHam(!showHam);
   };
   return (
-    <div className="fixed w-full text-gray-300  h-[80px] flex justify-between items-center px-4 bg-[#121212] border-[1px] border-purple-700">
+    <div className="fixed w-full text-gray-300  h-[80px] flex justify-between items-center px-4 bg-[#121212] border-b-[1px] border-purple-700">
       <div>
         <img src={logo} alt="Hemanth's Logo" style={{ width: "75px" }} />
       </div>

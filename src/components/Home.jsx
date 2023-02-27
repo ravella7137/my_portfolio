@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from '../assets/Resume.pdf'
 
 
 const Home = () => {
@@ -22,7 +23,7 @@ const Home = () => {
             start-up environments.
           </p>
           <button className="text-slate-100	 border-2 border-solid p-2 hover:bg-purple-700 hover:border-purple-700">
-            Download Resume
+            <a href={Resume} download='Resume.pdf'>Download Resume</a> 
           </button>
         </div>
       </div>
