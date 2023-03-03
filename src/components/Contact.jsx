@@ -3,7 +3,7 @@ import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="bg-[#121212]  text-gray-300">
+    <section className="bg-[#121212]  text-gray-300">
       <h2
         name="contact"
         className="text-center font-bold text-4xl text-gray-300 underline underline-offset-8 decoration-purple-700 pt-[7rem] pb-5"
@@ -51,7 +51,7 @@ const Contact = () => {
         <p>Made with React and Tailwind</p>
         <p>© Hemanth Kumar Ravilla</p>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -9,7 +9,7 @@ const Navbar = () => {
     setShowHam(!showHam);
   };
   return (
-    <div className="fixed w-full text-gray-300  h-[80px] flex justify-between items-center px-4 bg-[#121212] border-b-[1px] border-purple-700">
+    <header className="fixed w-full text-gray-300  h-[80px] flex justify-between items-center px-4 bg-[#121212] border-b-[1px] border-purple-700">
       <div
         className="hover:cursor-pointer"
         onClick={() => {
@@ -121,7 +121,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-    </div>
+    </header>
   );
 };
 

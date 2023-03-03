@@ -40,7 +40,7 @@ const experienceArray = [
 ];
 const Experience = () => {
   return (
-    <div name="experience" className="bg-[#121212] w-full pb-5">
+    <section name="experience" className="bg-[#121212] w-full pb-5">
       <p className="text-center font-bold text-4xl text-gray-300 underline underline-offset-8 decoration-purple-700  ">
         Experience
       </p>
@@ -52,7 +52,7 @@ const Experience = () => {
           ))}
         </ol>
       </div>
-    </div>
+    </section>
   );
 };
 

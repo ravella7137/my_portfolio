@@ -31,7 +31,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[#121212]  w-full">
+    <section name="skills" className="bg-[#121212]  w-full">
       <h2 className="text-center font-bold text-4xl text-gray-300 underline underline-offset-8 decoration-purple-700  pt-5 md:pt-[4rem]  pb-2 md:pb-5">
         Skills
       </h2>
@@ -41,7 +41,7 @@ const Skills = () => {
           <SkillTable key={item.id} obj={item}></SkillTable>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
