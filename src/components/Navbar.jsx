@@ -10,10 +10,16 @@ const Navbar = () => {
   };
   return (
     <div className="fixed w-full text-gray-300  h-[80px] flex justify-between items-center px-4 bg-[#121212] border-b-[1px] border-purple-700">
-      <div>
+      <div
+        className="hover:cursor-pointer"
+        onClick={() => {
+          window.location.reload();
+          window.scrollTo(0, 0);
+        }}
+      >
         <img src={logo} alt="Hemanth's Logo" style={{ width: "75px" }} />
       </div>
-      <div className="hidden md:flex grow">
+      <nav className="hidden md:flex grow">
         <ul className="flex justify-around w-[40%] ml-auto">
           <li className="hover:text-purple-700 list-none p-3 text-xl hover:cursor-pointer hover:underline-offset-8 hover:underline font-medium">
             <Link
@@ -54,7 +60,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </nav>
       <div onClick={handleHam} className="md:hidden z-10 px-3 py-3">
         {!showHam ? <FaBars /> : <FaTimes />}
       </div>
